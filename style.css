@@ -1,5 +1,6 @@
 body{
     background-color: hsl(216, 68%, 11%);
+    color: white;
 }
 .card{
     margin: 0;
@@ -66,4 +67,13 @@ body{
 .footer span{
     display: inline;
     color: rgb(159, 165, 248);
+}
+.equi{
+    background-color:none
+}
+.equi:hover{
+    filter: aqua
+}
+.footer a:hover, h3:hover{
+    color: aqua;
 }
