@@ -1,0 +1,68 @@
+body{
+    background-color: hsl(216, 68%, 11%);
+}
+.card{
+    margin: 0;
+    width: 15%; 
+    padding: 20px;
+    background-color: hsl(217, 67%, 17%);
+    border-radius: 2%;
+    top: 50%;
+    left: 50%;
+
+    position: absolute;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card > img{
+    border-radius: 2%;
+}
+.description{
+    color: rgb(159, 165, 248);
+
+}
+
+.info > div > p{
+    display: inline-block;
+    
+}
+.info > div > svg{
+    vertical-align: middle;
+    
+}
+
+
+.price{
+    color: aqua;
+    float: left;    
+
+}
+.time{
+    color: rgb(159, 165, 248);
+    float: right;    
+
+}
+.footer {
+    padding-top: 5%;
+    float: left;
+    border-top: 1px solid rgb(159, 165, 248);
+    width: 100%;
+}
+.footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.footer img{
+    display:inline-block;
+    vertical-align:middle;
+    width: 10%;
+    height: 10%;
+    border-color: white;
+    border: 1px solid;
+    border-radius: 50%;
+}
+.footer span{
+    display: inline;
+    color: rgb(159, 165, 248);
+}
