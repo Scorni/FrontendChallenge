@@ -17,6 +17,7 @@ body{
 }
 .card > img{
     border-radius: 2%;
+    width: 100%;
 }
 .description{
     color: rgb(159, 165, 248);
